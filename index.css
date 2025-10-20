@@ -1,46 +1,71 @@
-body{
+body {
     background-color: #10151A;
 }
-.site{
+
+.site {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container{
+.container {
+
     width: 1000px;
     color: white;
 }
 
-header{
+nav {
+    display: flex;
+    margin-top: 10px;
+    gap: 25px;
+}
+
+.login-button-square {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 25px;
+    width: 60px;
+    background-color: #243241;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+header {
     display: flex;
     justify-content: space-between;
 }
 
-.container-hero{
+.container-hero {
     display: flex;
     color: white;
     width: 1000px;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     margin: 80px;
 }
 
-.hero-title{
+.hero-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 40px;
 }
 
-.hero-subtitle{
+.hero-subtitle {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
 
-.get-started-button{
+.get-started-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,10 +75,9 @@ header{
     height: 30px;
     width: 100px;
     color: black
-    
 }
 
-.container-dao{
+.container-dao {
     display: flex;
     color: white;
     width: 1000px;
@@ -61,27 +85,27 @@ header{
     flex-direction: column;
 }
 
-.dao-title{
+.dao-title {
     font-size: 30px;
     margin: 25px;
 }
 
-.three-stars{
+.three-stars {
     display: flex;
-    position:relative;
+    position: relative;
     height: 50px;
     width: 50px;
     right: 100px;
     top: 40px;
 }
 
-.doa-group{
+.doa-group {
     display: flex;
     flex-wrap: nowrap;
     gap: 10px;
 }
 
-.dao-types{
+.dao-types {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +116,7 @@ header{
     font-size: 12px;
 }
 
-.dao-subtitle{
+.dao-subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +130,7 @@ header{
     color: black;
 }
 
-.container-features{
+.container-features {
     display: flex;
     color: white;
     width: 1000px;
@@ -116,7 +140,7 @@ header{
     font-size: 20px;
 }
 
-.two-stars{
+.two-stars {
     display: flex;
     position: relative;
     height: 30px;
@@ -125,7 +149,7 @@ header{
     left: 170px;
 }
 
-.container-crypto{
+.container-crypto {
     display: flex;
     margin-top: 80px;
     color: white;
@@ -133,44 +157,41 @@ header{
     font-size: 20px;
     flex-direction: column;
     align-items: center;
-
 }
 
-.two-stars-1{
+.two-stars-1 {
     display: flex;
     position: relative;
     height: 30px;
     width: 35px;
     right: 135px;
     top: 30px;
-
 }
 
-.two-stars-2{
+.two-stars-2 {
     display: flex;
     position: relative;
     height: 25px;
     width: 30px;
     left: 135px;
     top: 5px;
-
 }
 
-.crypto-icons-section{
+.crypto-icons-section {
     display: flex;
     width: 590px;
     margin-top: 20px;
     justify-content: space-between;
 }
 
-.square-crypto-icon{
+.square-crypto-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 14px;
 }
 
-.crypto-icon-square{
+.crypto-icon-square {
     display: flex;
     height: 80px;
     width: 80px;
@@ -182,12 +203,12 @@ header{
     margin-bottom: 10px;
 }
 
-.icons-crypto{
+.icons-crypto {
     height: 35px;
     width: 35px;
 }
 
-.container-support{
+.container-support {
     display: flex;
     margin-top: 80px;
     color: white;
@@ -197,57 +218,57 @@ header{
     align-items: center;
 }
 
-.team-square{
+.team-square {
     display: flex;
     width: 450px;
     margin-top: 20px;
     justify-content: space-between;
-
 }
 
-.team-pictures{
+.team-pictures {
     height: 80px;
     width: 80px;
     border-radius: 15px;
-    
+
 }
 
-.support-section{
+.support-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
 }
-.team-support{
+
+.team-support {
     display: flex;
     justify-content: space-between;
     width: 350px;
 }
 
-.stars{
+.stars {
     height: 20px;
     width: 20px;
 }
 
-.features-support-primary{
+.features-support-primary {
     display: flex;
     justify-content: space-between;
-    width: 400px; 
+    width: 400px;
 }
 
-.features-support-secondary{
+.features-support-secondary {
     display: flex;
     justify-content: space-between;
-    width: 350px; 
+    width: 350px;
 }
 
-.features-support-learning{
+.features-support-learning {
     display: flex;
     justify-content: space-between;
-    width: 200px; 
+    width: 200px;
 }
 
-.container-news{
+.container-news {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,20 +281,20 @@ header{
     border-radius: 10px;
 }
 
-.news-title{
+.news-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
 
-.news-subtitle{
-    margin: 0px; 
+.news-subtitle {
+    margin: 0px;
     color: #9AAFC3;
     font-size: 14px;
 }
 
-.email-subscribe{
+.email-subscribe {
     display: flex;
     width: 360px;
     justify-content: space-between;
@@ -281,7 +302,7 @@ header{
     font-size: 15px;
 }
 
-.email-bar{
+.email-bar {
     height: 40px;
     width: 260px;
     background-color: #121E28;
@@ -291,7 +312,7 @@ header{
     color: white;
 }
 
-.subscribe-news{
+.subscribe-news {
     display: flex;
     width: 80px;
     height: 40px;
@@ -299,18 +320,16 @@ header{
     align-items: center;
     background-color: #CEAAFF;
     border-radius: 10px;
-
 }
 
-.container-press{
+.container-press {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
     color: white;
-
 }
 
-.stars-6{
+.stars-6 {
     display: flex;
     position: relative;
     height: 30px;
@@ -318,26 +337,26 @@ header{
     left: 70px;
 }
 
-.press-title{
+.press-title {
     display: flex;
     width: 600px;
     justify-content: space-between;
     font-size: 20px;
 }
 
-.see-all{
+.see-all {
     color: #8395A7;
     font-size: 14px;
 }
 
-.press-square-blocks{
+.press-square-blocks {
     display: flex;
     justify-content: space-between;
     width: 600px;
     margin-top: 20px;
 }
 
-.info-square{
+.info-square {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -347,27 +366,27 @@ header{
     color: black;
 }
 
-.logo-boxes{
+.logo-boxes {
     margin-left: 10px;
     height: 15px;
     width: 75px;
     margin-top: 10px;
 }
 
-.info-subtitle{
-    font-size: 12px; 
+.info-subtitle {
+    font-size: 12px;
     margin-inline: 10px;
     height: 47px;
 }
 
-.subtitle-info-secondary{
+.subtitle-info-secondary {
     margin-top: 10px;
     margin-inline: 10px;
-    font-size: 10px; 
+    font-size: 10px;
     height: 47px;
 }
 
-.read-more-info{
+.read-more-info {
     display: flex;
     align-self: flex-start;
     margin-bottom: 10px;
@@ -376,19 +395,19 @@ header{
     gap: 5px;
 }
 
-.arrow-icon{
+.arrow-icon {
     height: 6px;
     width: 9px;
 }
 
-.container-podcasts{
+.container-podcasts {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
     color: white;
 }
 
-.stars-7{
+.stars-7 {
     display: flex;
     position: relative;
     height: 30px;
@@ -396,21 +415,21 @@ header{
     right: 55px;
 }
 
-.podcasts-title{
+.podcasts-title {
     display: flex;
     width: 600px;
     justify-content: space-between;
     font-size: 20px;
 }
 
-.podcasts-square-blocks{
+.podcasts-square-blocks {
     display: flex;
     justify-content: space-between;
     width: 600px;
     margin-top: 20px;
 }
 
-.podcasts-square{
+.podcasts-square {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -422,7 +441,7 @@ header{
     background-color: #121E28;
 }
 
-.podcast-icons{
+.podcast-icons {
     margin-left: 10px;
     height: 20px;
     width: 20px;
@@ -431,22 +450,22 @@ header{
     border: 1px solid #2A3744;
 }
 
-.info-podcasts{
+.info-podcasts {
     margin-top: -14px;
-    font-size: 10px; 
+    font-size: 10px;
     margin-inline: 10px;
     height: 38px;
 }
 
-.podcasts-maker{
+.podcasts-maker {
     margin-top: 5px;
     margin-inline: 10px;
-    font-size: 8px; 
+    font-size: 8px;
     height: 20px;
     color: #E2E2E2;
 }
 
-.listen-podcasts{
+.listen-podcasts {
     display: flex;
     align-self: flex-start;
     margin-bottom: 10px;
@@ -455,15 +474,15 @@ header{
     gap: 5px;
 }
 
-.three-stars-1{
+.three-stars-1 {
     display: flex;
-    position:relative;
+    position: relative;
     height: 50px;
     width: 50px;
     top: 40px;
 }
 
-.container-socials{
+.container-socials {
     display: flex;
     margin-top: 80px;
     color: white;
@@ -473,19 +492,19 @@ header{
     align-items: center;
 }
 
-.social-title{
+.social-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
 
-.socials-subtitle{
+.socials-subtitle {
     color: #5A6C7E;
     font-size: 14px;
 }
 
-.social-block-section{
+.social-block-section {
     display: flex;
     flex-direction: row;
     width: 360px;
@@ -495,7 +514,7 @@ header{
     color: black;
 }
 
-.social-block-telegram{
+.social-block-telegram {
     display: flex;
     align-items: center;
     height: 40px;
@@ -505,7 +524,7 @@ header{
     font-size: 10px;
 }
 
-.social-block-email{
+.social-block-email {
     display: flex;
     align-items: center;
     height: 40px;
@@ -515,32 +534,32 @@ header{
     font-size: 10px;
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     padding: 10px;
     height: 27px;
     width: 27px;
 }
 
-.container-end{
+.container-end {
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    width: 1000px;
-
+    width: 1520px;
+    background-color: #121E28;
 }
 
-.more-info{
+.more-info {
     display: flex;
     width: 1000px;
     height: 80px;
 }
 
-.placeholder{
+.placeholder {
     flex: 1;
 }
 
-.about{
+.about {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -548,11 +567,9 @@ header{
     color: white;
     gap: 10px;
     flex: 1;
-
-
 }
 
-.end-icons{
+.end-icons {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -560,19 +577,19 @@ header{
     gap: 10px;
 }
 
-.icon-socials{
+.icon-socials {
     height: 40px;
     width: 40px;
 }
 
-.heroes-block{
+.heroes-block {
     display: flex;
     justify-content: space-between;
     width: 600px;
     margin-top: 20px;
 }
 
-.heroes-square{
+.heroes-square {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -583,7 +600,7 @@ header{
     color: black;
 }
 
-.hero-team-persons{
+.hero-team-persons {
     height: 70px;
     width: 70px;
     margin-top: 10px;
@@ -591,35 +608,32 @@ header{
     border: 1px solid #2A3744;
 }
 
-.heroes-text-block{
+.heroes-text-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 10px;
     height: 120px;
     width: 140px;
-    
 }
 
-.heroes-names{
+.heroes-names {
     font-size: 12px;
-    
 }
 
-.heroes-subtitles{
+.heroes-subtitles {
     font-size: 10px;
     margin-top: 5px;
 }
 
-.contact-heroes{
+.contact-heroes {
     font-size: 10px;
     margin-top: 20px;
     margin-right: 12px;
     align-self: flex-end;
-
 }
 
-.heroes-arrow{
+.heroes-arrow {
     display: flex;
     align-self: flex-end;
     height: 6px;
@@ -629,34 +643,34 @@ header{
     left: 2px;
 }
 
-.container-form{
+.container-form {
     display: flex;
     color: white;
     width: 1000px;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     margin: 80px;
-    border: 2px solid red;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 650px;
+    height: 485px;
     width: 500px;
-    border: 2px solid red;
+    border: 2px solid #2A3744;
     border-radius: 15px;
     color: white;
+    background-color: #121E28;
 }
 
-.form-title{
+.form-title {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px
 }
 
-.name-bar{
+.name-bar {
     margin-top: 15px;
     height: 40px;
     width: 260px;
@@ -667,7 +681,7 @@ header{
     color: white;
 }
 
-.message-area{
+.message-area {
     margin-top: 15px;
     height: 150px;
     width: 260px;
@@ -676,13 +690,12 @@ header{
     border: 2px solid #2A3744;
     padding-left: 10px;
     color: white;
-
 }
 
-.choose-color{
+.choose-color {
     margin-top: 15px;
     height: 40px;
-    width: 260px;
+    width: 280px;
     background-color: #121E28;
     border-radius: 10px;
     border: 2px solid #2A3744;
@@ -690,7 +703,17 @@ header{
     color: #585b5d;
 }
 
-.subtext-crypto{
+.subtext-crypto {
     display: flex;
+}
 
+.send-button {
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    left: 200px;
+    margin-top: 30px;
+    background-color: #CEAAFF;
+    border-radius: 10px;
 }
