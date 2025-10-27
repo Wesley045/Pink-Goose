@@ -1,5 +1,11 @@
+/*dit is de algemene styling sectie*/
 body {
     background-color: #10151A;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,h2, h3, h4, h5{
+    font-weight: normal;
 }
 
 .site {
