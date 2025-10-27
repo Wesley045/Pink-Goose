@@ -20,6 +20,10 @@ nav {
     gap: 25px;
 }
 
+a {
+    color: white;
+}
+
 .login-button-square {
     display: flex;
     align-items: center;
@@ -274,11 +278,12 @@ header {
     align-items: center;
     margin-top: 80px;
     color: white;
-    height: 200px;
+    height: 180px;
     width: 600px;
     font-size: 20px;
     background-color: #121E28;
     border-radius: 10px;
+    border: 2px solid #3D4C5B;
 }
 
 .news-title {
@@ -289,7 +294,7 @@ header {
 }
 
 .news-subtitle {
-    margin: 0px;
+    margin-top: 10px;
     color: #9AAFC3;
     font-size: 14px;
 }
@@ -298,7 +303,6 @@ header {
     display: flex;
     width: 360px;
     justify-content: space-between;
-    margin-top: 40px;
     font-size: 15px;
 }
 
@@ -541,7 +545,7 @@ header {
     width: 27px;
 }
 
-.container-end {
+footer {
     display: flex;
     justify-content: center;
     margin-top: 80px;
@@ -660,7 +664,7 @@ header {
     width: 500px;
     border: 2px solid #2A3744;
     border-radius: 15px;
-    color: white;
+    
     background-color: #121E28;
 }
 
@@ -700,7 +704,7 @@ header {
     border-radius: 10px;
     border: 2px solid #2A3744;
     padding-left: 10px;
-    color: #585b5d;
+    color: white;
 }
 
 .subtext-crypto {
